@@ -6,9 +6,9 @@ db.students.find()
 
 db.students.find({age:{$gt: 18}})
 
-db.students.updateOne({name: "Bhaga"}, {$set:{grade: "C"}})
+db.students.updateOne({name: "Dev"}, {$set:{grade: "C"}})
 
-db.students.deleteOne({ name: "Shandi" })
+db.students.deleteOne({ name: "Deepak" })
 
 db.students.countDocuments({ grade: "B" })
 
